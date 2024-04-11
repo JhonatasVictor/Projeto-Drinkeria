@@ -10,7 +10,8 @@ header {
     color: rgb(0, 0, 0);
     height: 70px;
     text-align: center;
-    padding-top: 10px;
+    padding-top: 16px;
+    font-size: 0.9em;
 }
 #principal {
  background-color: rgba(10, 10, 10, 0.527);
@@ -82,9 +83,12 @@ div > img {
 
 }
 #barman {
+    background-image: url(./Imagens/Barman\ montando\ drink.jpg);
     width: 50%;
     height: 100%;
     float: right;
+    background-size: cover;
+    background-position: center center;
 }
 #bartendes {
     color: white;
@@ -101,18 +105,20 @@ height: 390px;
 width: 100%;
 
 }
-.chopp > img {
+#chopp {
+    background-image: url(./Imagens/Imagem\ Chopp.jpg);
     width: 50%;
     height: 100%;
     float: left;
+    background-size: cover;
 }
 .chopp > p {
     color: white;
     font-family: cursive;
     width: 45%;
-     float: right;
      height: 96%;
      font-size: 1.9em;
+     float: right;
      text-decoration: dashed;
      text-align: center;
      margin-right: 4px;

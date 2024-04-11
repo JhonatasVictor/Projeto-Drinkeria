@@ -1,0 +1,68 @@
+@charset "UTF-8";
+
+@media screen and (min-width: 850px) {
+    header{
+        height: 100px;
+    }
+     header > h1 {
+        width: 100%;
+        height: 120px;
+        text-align: center;
+        padding-top: 30px;
+        font-size: 2.3em;
+     }
+     #principal {
+        width: 600px;
+        height: 250px;
+        font-size: 2em;
+     }
+     #imagem {
+        height: 410px;
+     }
+     .card > div {
+        display: inline;
+
+     }
+     .card {
+        width: 159px;
+         margin: 2px;
+         margin-top: 9px;
+         margin-bottom: -7px;
+        
+     }
+     #barman {
+       background-image: url(./Imagens/barman\ montando\ drink\ 2.jpg);
+       float: left;
+       width: 65%;
+       height: 100%;
+        background-position: center bottom;
+        background-size: cover;
+
+     }
+     #bartendes {
+        font-size: 2em;
+        text-align: center;
+        margin: 50px;
+     }
+     .barman {
+        height: 500px;
+        margin-top: 20px;
+     }
+     .chopp {
+        height: 500px;
+     }
+     #chopp {
+        background-image: url(./Imagens/Chopp\ 2.jpg);
+        float: right;
+        width: 60%;
+        background-size: cover;
+        
+        
+     }
+     .chopp > p {
+        float: left;
+    width: 30%;
+    text-align: center;
+    font-size: 2.4em;
+     }
+}
