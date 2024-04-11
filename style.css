@@ -62,8 +62,9 @@ div > img {
     height: 19%;
     border-radius: 10px;
     box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.623);
-    margin-left: 1px;
-    margin-top: 5px;
+    margin-left: 60px;
+    margin-right: 20px;
+    margin-top: 10px;
     margin-bottom: 10px;
     transition: 100ms linear;
 
@@ -177,6 +178,12 @@ transform: scale(1.1);
 #telefone:hover {
     box-shadow: 4px 4px 4px black;
     transform: scale(1.1);
+}
+#sexy {
+    font-size: 0.9em;
+}
+#sexy > img {
+  height: 88px;
 }
 
 
