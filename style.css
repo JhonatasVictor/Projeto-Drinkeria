@@ -1,0 +1,186 @@
+@charset "UTF-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+header {
+    background-color: rgb(255, 187, 0);
+    color: rgb(0, 0, 0);
+    height: 70px;
+    text-align: center;
+    padding-top: 10px;
+}
+#principal {
+ background-color: rgba(10, 10, 10, 0.527);
+ color: #eeff00;
+ font-family: cursive;
+ font-size: 1.6em;
+ padding-top: 90px;
+ padding-left: 50px;
+ width: 400px;
+ height: 200px;
+ border-radius: 8px;
+}
+#imagem {
+    background-image: url(./Imagens/Imagem\ fundo\ 2.jpg);
+    height: 350px;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+}
+.card > div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 4px;
+    height: 50%;
+}
+div > img {
+    height: 100px;
+    padding-left: 8px;
+
+}
+.Título {
+    font-size: 1.1em;
+    font-weight: bolder;
+    text-align: center;
+    padding: 1px;
+}
+.subtítulo {
+    font-size: 1em;
+    font-weight: bolder;
+    text-align: center;
+    padding: 5px;
+}
+.card {
+    display: inline-block;
+    border: 1px solid black;
+    width: 20%;
+    height: 19%;
+    border-radius: 10px;
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.623);
+    margin-left: 1px;
+    margin-top: 5px;
+    margin: 8px;
+    transition: 100ms linear;
+
+}
+.card:hover {
+    transform: scale(1.1);
+}
+.preço {
+    text-align: center;
+    padding: 5px;
+}
+.barman {
+    background-color: black;
+    height: 425px;
+
+}
+#barman {
+    width: 50%;
+    height: 100%;
+    float: right;
+}
+#bartendes {
+    color: white;
+    height: 120%;
+    width: 90%;
+    font-size: 1.8em;
+    font-family: cursive;
+      text-decoration: dashed;
+}
+.chopp {
+background-color: red; 
+height: 390px;
+width: 100%;
+
+}
+.chopp > img {
+    width: 50%;
+    height: 100%;
+    float: left;
+}
+.chopp > p {
+    color: white;
+    font-family: cursive;
+    width: 50%;
+     float: right;
+     height: 95%;
+     font-size: 1.9em;
+     text-decoration: dashed;
+     text-align: center;
+}
+footer {
+    background-color: rgb(207, 212, 216);
+    height: 250px;
+    width: 100%;
+    display:
+}
+#localização {
+    height: 60px;
+    width: 60px;
+    margin-left: 10px;
+    border: 3px solid rgba(0, 0, 0, 0);
+    border-radius: 30px;
+    box-shadow: 4px 4px 4px rgba(141, 6, 6, 0.336);
+    transition: transform 0.3s;
+
+}
+#localização:hover {
+    box-shadow:3px 3px 4px rgb(240, 8, 8);
+    transform: scale(1.1);
+}
+#whatsapp {
+    height: 60px;
+    width: 60px;
+    margin-right: 20px;
+    border: 3px solid rgba(0, 0, 0, 0);
+    border-radius: 30px;
+    box-shadow: 4px 4px 4px rgba(25, 172, 6, 0.336);
+    transition: transform 0.3s;
+    float: right;
+    display: block;
+ 
+}
+#whatsapp:hover {
+box-shadow: 3px 3px 4px green;
+transform: scale(1.1);
+}
+#instagram {
+    height: 60px;
+    width: 60px;
+    border: 3px solid rgba(0, 0, 0, 0);
+    border-radius: 30px;
+    box-shadow: 4px 4px 4px rgba(209, 8, 92, 0.336);
+    transition: transform 0.3s;
+    float: right;
+    margin-right: 15px;
+}
+#instagram:hover {
+    box-shadow: 4px 4px 4px rgb(163, 26, 67);
+    transform: scale(1.1);
+}
+#telefone {
+    height: 50px;
+    width: 60px;
+    margin-left: 10px;
+    border: 3px solid rgba(0, 0, 0, 0);
+    border-radius: 30px;
+    box-shadow: 4px 4px 4px black;
+    transition: transform 0.3s;
+    display:flex;
+}
+#telefone:hover {
+    box-shadow: 4px 4px 4px black;
+    transform: scale(1.1);
+}
+
+
+
+
+    
+
