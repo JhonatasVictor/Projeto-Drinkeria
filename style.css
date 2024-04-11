@@ -58,8 +58,8 @@ div > img {
 .card {
     display: inline-block;
     border: 1px solid black;
-    width: 20%;
-    height: 19%;
+    width: 25%;
+    height: 20%;
     border-radius: 10px;
     box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.623);
     margin-left: 60px;
@@ -185,8 +185,9 @@ transform: scale(1.1);
     font-size: 0.9em;
 }
 #sexy > img {
-  height: 88px;
+  height: 105px;
 }
+
 
 
 
