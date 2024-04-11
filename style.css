@@ -19,8 +19,8 @@ header {
  font-size: 1.6em;
  padding-top: 90px;
  padding-left: 50px;
- width: 400px;
- height: 200px;
+ width: 310px;
+ height: 195px;
  border-radius: 8px;
 }
 #imagem {
@@ -64,7 +64,7 @@ div > img {
     box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.623);
     margin-left: 1px;
     margin-top: 5px;
-    margin: 8px;
+    margin-bottom: 10px;
     transition: 100ms linear;
 
 }
