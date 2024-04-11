@@ -89,8 +89,9 @@ div > img {
 #bartendes {
     color: white;
     height: 120%;
-    width: 90%;
+    width: 80%;
     font-size: 1.8em;
+    margin-left: 13px;
     font-family: cursive;
       text-decoration: dashed;
 }
@@ -108,12 +109,13 @@ width: 100%;
 .chopp > p {
     color: white;
     font-family: cursive;
-    width: 50%;
+    width: 45%;
      float: right;
-     height: 95%;
+     height: 96%;
      font-size: 1.9em;
      text-decoration: dashed;
      text-align: center;
+     margin-right: 4px;
 }
 footer {
     background-color: rgb(207, 212, 216);
